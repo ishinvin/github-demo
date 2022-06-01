@@ -5,10 +5,14 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "husky": "^8.0.1",
     "jest": "^28.1.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
