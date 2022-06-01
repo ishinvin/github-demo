@@ -1,8 +1,8 @@
 **Describe the PR**
-The purpose of the pull request.
+The purpose of this PR.
 
 **Ticket(s)**
-Links to any open tickets, tasks and sub-tasks from ClickUp.
+Link to open ticket
 
 **Task(s)**
 
