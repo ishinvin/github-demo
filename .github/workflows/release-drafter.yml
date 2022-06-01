@@ -1,10 +1,14 @@
 name: Release Drafter
 
 on:
-  pull_request:
-    types: [closed]
+  push:
+    # branches to consider in the event; optional, defaults to all
     branches:
       - main
+  # pull_request event is required only for autolabeler
+  pull_request:
+    # Only following types are handled by the action, but one can default to all as well
+    types: [opened, reopened, synchronize]
 jobs:
   update_release_draft:
     if: "github.event.pull_request.merged == true"
