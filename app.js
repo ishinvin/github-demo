@@ -1,5 +1,5 @@
 /**
- * Sum 2 value
+ * Sum 2 value a + b
  * 
  * @param {a} a 
  * @param {b} b
